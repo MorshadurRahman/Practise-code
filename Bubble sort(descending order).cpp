@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
     int arr[100], n, i, j, temp;
 
     cout << "Enter number of elements: ";
@@ -35,4 +36,5 @@ int main() {
 
     return 0;
 }
+
 

@@ -11,15 +11,15 @@ int main() {
 
     // unsorted elements
     cout << "Enter " << n << " elements:" << endl;
-    for (i = 0; i < n; ++i) {
+    for (i = 0; i < n; i++) {
         cin >> arr[i];
     }
 
     //Selection sort
-    for (i = 0; i < n - 1; ++i) {
+    for (i = 0; i < n - 1; i++) {
         min_id = i;
 
-        for (j = i + 1; j < n; ++j) {
+        for (j = i + 1; j < n; j++) {
             if (arr[j] < arr[min_id]) {
                 min_id = j;
             }
@@ -33,12 +33,13 @@ int main() {
 
     //sorted array
     cout << "Sorted array: ";
-    for (i = 0; i < n; ++i) {
+    for (i = 0; i < n; i++) {
         cout << arr[i] << "  ";
     }
 
     cout << endl;
     return 0;
 }
+
 
 
